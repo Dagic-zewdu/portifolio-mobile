@@ -3,7 +3,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-nav {
+header {
   display: flex;
   margin: 20px;
 }
@@ -30,11 +30,12 @@ section {
 }
 
 .primary-text1 {
-  font-size: 40px;
-  font-style: normal;
   padding-top: 25px;
+  font-style: normal;
   font-weight: bold;
+  font-size: 40px;
   line-height: 52px;
+  color: #172b4d;
 }
 
 .intro {
@@ -43,13 +44,15 @@ section {
 }
 
 .primary-text2 {
-  font-size: 16px;
-  text-justify: auto;
   color: #344563;
   font-style: normal;
   font-weight: normal;
+  font-size: 16px;
   line-height: 24px;
-  padding-top: 0%;
+  text-align: justify;
+  text-justify: auto;
+  padding-left: 3px;
+  width: 90%;
 }
 
 .connect {
